@@ -16,23 +16,23 @@ class Deltabox < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.1.5/deltabox-0.1.5-aarch64-apple-darwin.tar.gz"
-      sha256 "46590d7cdaa77de279cf107f12f58a8f8dc9b032b1e47b325f00ee7e67163e1a"
+      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.2.0/deltabox-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "25f55dee74f3df2a5ddf6f9bd8cfb0f951daed87fad6a1298d691e7ee62adb04"
     end
     on_intel do
-      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.1.5/deltabox-0.1.5-x86_64-apple-darwin.tar.gz"
-      sha256 "9590a1b1949336d0db4e5973fd49de12a8fcdea120fa406c586fee2cc779621d"
+      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.2.0/deltabox-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "37e848b062ce5469fe1c507828c9aae642e4953b8a96cef008386eb889009f67"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.1.5/deltabox-0.1.5-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9eca4621c3ae00a8da18806da85513000193c29c8bc0174c6a8d8d9c080dbbf1"
+      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.2.0/deltabox-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0c76eb3e44f3f2c580d70ac164d5f90317ba9165db61953b8fcd5736bfb0f9f6"
     end
     on_intel do
-      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.1.5/deltabox-0.1.5-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b5b52c975432c953b906b956d3f3932133730fb88402002dbe01363296e6eb20"
+      url "https://github.com/delta-box/deltabox-lite/releases/download/v0.2.0/deltabox-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d79e6bc001048fd087bed72707caee401570f79bfe5c2656a6f5197f81ac4a2d"
     end
   end
 
